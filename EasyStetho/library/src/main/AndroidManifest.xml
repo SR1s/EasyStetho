@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.sr1.easystetho" >
+
+    <application>
+        <provider
+            android:name="me.sr1.easystetho.StethoInitializer"
+            android:authorities="me.sr1.easystetho.stetho-init"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+</manifest>
